@@ -5,7 +5,7 @@ describe('groupAnagrams', () => {
     'should group the words that are anagram of each other together',
     () => {
       const input = ['eat', 'tea', 'tan', 'ate', 'nat', 'bat'];
-      const expected = [['bat'], ['nat', 'tan'], ['ate', 'eat', 'tea']];
+      const expected = expect.arrayContaining([expect.arrayContaining(['bat']), expect.arrayContaining(['nat', 'tan']), expect.arrayContaining(['ate', 'eat', 'tea'])]);
 
       const result = groupAnagrams(input);
 
@@ -13,7 +13,7 @@ describe('groupAnagrams', () => {
     },
   );
 
-  it.skip(
+  it(
     'should return an array with a single array element if given an empty one string',
     () => {
       const input = [''];
@@ -25,7 +25,7 @@ describe('groupAnagrams', () => {
     },
   );
 
-  it.skip(
+  it(
     'should return an array with a single array element if given an empty one word',
     () => {
       const input = ['eat'];
