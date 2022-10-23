@@ -13,5 +13,5 @@
       }
     ]
   },
-  "ignorePatterns": ["src/**/*.test.ts", "node_modules"]
+  "ignorePatterns": ["node_modules", "**/*.config.js"]
 }
