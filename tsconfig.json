@@ -18,8 +18,7 @@
     "baseUrl": "./",
     "listFiles": false,
     "noEmitHelpers": true,
-    "strict": true,
-    "esModuleInterop": true,
+    "strict": true
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules"],
