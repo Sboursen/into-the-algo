@@ -23,7 +23,7 @@ export default function calPoints(operations: string[]): number {
   };
 
   operations.forEach((operation) => {
-    if (ops[operation]) result = ops[operation](result);
+    if (ops[operation] !== undefined) result = ops[operation](result);
     else result = push(result, operation);
   });
 
