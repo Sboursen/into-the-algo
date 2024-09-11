@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "moduleResolution": "nodenext",
-    "module": "esnext",
+    "module": "NodeNext",
     "declaration": false,
     "noLib": false,
     "emitDecoratorMetadata": true,
