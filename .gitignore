@@ -106,3 +106,5 @@ dist
 src/tree
 
 .vscode
+
+src/misc
