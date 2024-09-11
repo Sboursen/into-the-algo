@@ -1,7 +1,7 @@
 export default function twoSum(nums: number[], target: number): number[] {
   const complementMap: { [key: number]: number } = {};
 
-  let sol: [number, number];
+  let sol: [number, number] = [0, 1];
 
   for (let i = 0; i < nums.length; i += 1) {
     const num = nums[i];
